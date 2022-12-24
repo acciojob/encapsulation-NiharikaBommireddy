@@ -6,7 +6,7 @@ public class Main {
     RWOnly rw = new RWOnly();
     // 'name' has private access in 'com.driver.RWOnly'
     //rw.name = "Niharika";
-    System.out.println("Error: 'name' has private access in 'com.driver.RWOnly'");
+   // System.out.println("Error: 'name' has private access in 'com.driver.RWOnly'");
     rw.setName("Niharika");
     System.out.println(rw.getName());
 
